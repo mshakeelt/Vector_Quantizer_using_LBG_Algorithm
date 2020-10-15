@@ -6,7 +6,7 @@ We have implemented a vector quantizer for audio signals using LBG machine learn
 
 We are Implementing a vector quantizer (VQ) with dimension N=2 and M=16^2=256 code vectors (again corresponding to 4 bits per dimension)
 
-#Training stage (training.py)
+# Training stage (training.py)
 * We are Training the VQ using the LBG algorithm on the training audio dataset
 * Then we are Ploting codebook (red stars) with 2D training signal 1b (blue dots) and “voronoi regions” (green)
 * We are saving our training set to “codebook.bin” file and “voronoi regions” to “voronoi_regions.bin”
